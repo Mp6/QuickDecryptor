@@ -14,6 +14,32 @@ namespace Decryptor
         public Cryptor()
         {
             Cipher = new Dictionary<string, int>();
+            Cipher["A"] = -1;
+            Cipher["B"] = -1;
+            Cipher["C"] = -1;
+            Cipher["D"] = -1;
+            Cipher["E"] = -1;
+            Cipher["F"] = -1;
+            Cipher["G"] = -1;
+            Cipher["H"] = -1;
+            Cipher["I"] = -1;
+            Cipher["J"] = -1;
+            Cipher["K"] = -1;
+            Cipher["L"] = -1;
+            Cipher["M"] = -1;
+            Cipher["N"] = -1;
+            Cipher["O"] = -1;
+            Cipher["P"] = -1;
+            Cipher["Q"] = -1;
+            Cipher["R"] = -1;
+            Cipher["S"] = -1;
+            Cipher["T"] = -1;
+            Cipher["U"] = -1;
+            Cipher["V"] = -1;
+            Cipher["W"] = -1;
+            Cipher["X"] = -1;
+            Cipher["Y"] = -1;
+            Cipher["Z"] = -1;
             Cipher["a"] = -1;
             Cipher["b"] = -1;
             Cipher["c"] = -1;
@@ -40,6 +66,18 @@ namespace Decryptor
             Cipher["x"] = -1;
             Cipher["y"] = -1;
             Cipher["z"] = -1;
+            Cipher["0"] = -1;
+            Cipher["1"] = -1;
+            Cipher["2"] = -1;
+            Cipher["3"] = -1;
+            Cipher["4"] = -1;
+            Cipher["5"] = -1;
+            Cipher["6"] = -1;
+            Cipher["7"] = -1;
+            Cipher["8"] = -1;
+            Cipher["9"] = -1;
+            Cipher[" "] = -1;
+            Cipher["'"] = -1;
         }
 
         public void SetGroups(int groups)
@@ -83,7 +121,8 @@ namespace Decryptor
 
         public void SetCipher(string letter, int val)
         {
-            Cipher[letter] = val;
+            if(Cipher.ContainsKey(letter))
+                Cipher[letter] = val;
         }
     }
 }

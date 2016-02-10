@@ -1,0 +1,87 @@
+Created by: Russell Craigie
+Created On: 2/10/16
+Last Updated: 2/10/16 10:00:00
+Current Version: 1.1
+
+This program was created to determine cipher text given to us during a CS 105 class, to decrypt something simply place the text into the top "Encrypted" text box, set the number of digits per group (in this case it defaults to 2), set the value to the corresponding characters, and click decrypt.  After this the box labed "Decrypted" will display the output while displaying the number if nothing was found to correspond with a value.  The program is open source and free to modify, just give credit where credit is due.  All rights reserved.
+
+== Changelog ==
+
+= 1.1 on 2/10/16 10:30:00 =
+ADDED Differential between upper and lower case letters
+ADDED Numbers
+ADDED Symbols for "Space" and "Apostrophe"
+ADDED A counter for the number of groups found
+
+= 1.0 on 2/10/16 10:00:00 =
+ADDED First commit of the project
+
+Cipher Text:
+63917373544954388825542532886232222529545932296935383447543538623229623429546234228859382522386934259654643454717426979654593554342542256235252996543569333364343859328754625472654970593854706935546432542264313369382534359654623229543169228854416235382534545932382534326242546433253462385964324454388825545159343538544564343154593554342542256235252954593254979457979871869654388825543334252269343564345438645488255474323825343225384454575946623454342542256235253554865932548664479654388825544159343538542264313369382534546232593162382529544159423154386454455932546232549722622925314754974562342982
+
+Know Letters (for given cipher):
+
+a:
+b:
+c: 33
+d: 29
+e:
+f:
+g:
+h:
+i:
+j:
+k:
+l: 42
+m:
+n:
+o:
+p:
+q:
+r:
+s:
+t:
+u:
+v:
+w:
+z:
+y:
+z:
+A:
+B:
+C: 75
+D:
+E:
+F:
+G:
+H:
+I:
+J:
+K:
+L:
+M:
+N:
+O:
+P:
+Q:
+R: 94
+S: 26
+T: 86
+U:
+V:
+W:
+X:
+Y:
+Z:
+0:
+1:
+2:
+3: 72
+4:
+5:
+6:
+7: 84
+8: 73
+9: 91
+': 55
+Space: 
