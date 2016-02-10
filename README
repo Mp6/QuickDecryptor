@@ -1,6 +1,6 @@
 Created by: Russell Craigie
 Created On: 2/10/16
-Last Updated: 2/10/16 10:00:00
+Last Updated: 2/10/16 10:30:00
 Current Version: 1.1
 
 This program was created to determine cipher text given to us during a CS 105 class, to decrypt something simply place the text into the top "Encrypted" text box, set the number of digits per group (in this case it defaults to 2), set the value to the corresponding characters, and click decrypt.  After this the box labed "Decrypted" will display the output while displaying the number if nothing was found to correspond with a value.  The program is open source and free to modify, just give credit where credit is due.  All rights reserved.
