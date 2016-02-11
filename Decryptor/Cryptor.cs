@@ -78,6 +78,16 @@ namespace Decryptor
             Cipher["9"] = -1;
             Cipher[" "] = -1;
             Cipher["'"] = -1;
+            Cipher["\""] = -1;
+            Cipher["("] = -1;
+            Cipher[")"] = -1;
+            Cipher["!"] = -1;
+            Cipher["+"] = -1;
+            Cipher["&"] = -1;
+            Cipher["."] = -1;
+            Cipher[","] = -1;
+            Cipher["-"] = -1;
+            Cipher[":"] = -1;
         }
 
         public void SetGroups(int groups)

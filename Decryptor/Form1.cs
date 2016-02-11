@@ -93,7 +93,17 @@ namespace Decryptor
             c_obj.SetCipher("8", Int32.Parse(textBox59.Text));
             c_obj.SetCipher("9", Int32.Parse(textBox58.Text));
             c_obj.SetCipher("'", Int32.Parse(textBox57.Text));
+            c_obj.SetCipher(".", Int32.Parse(textBox70.Text));
             c_obj.SetCipher(" ", Int32.Parse(textBox56.Text));
+            c_obj.SetCipher("\"", Int32.Parse(textBox68.Text));
+            c_obj.SetCipher("(", Int32.Parse(textBox75.Text));
+            c_obj.SetCipher(")", Int32.Parse(textBox74.Text));
+            c_obj.SetCipher("!", Int32.Parse(textBox73.Text));
+            c_obj.SetCipher("+", Int32.Parse(textBox72.Text));
+            c_obj.SetCipher("&", Int32.Parse(textBox71.Text));
+            c_obj.SetCipher(",", Int32.Parse(textBox69.Text));
+            c_obj.SetCipher("-", Int32.Parse(textBox76.Text));
+            c_obj.SetCipher(":", Int32.Parse(textBox77.Text));
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
